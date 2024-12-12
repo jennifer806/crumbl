@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #fd99a8;
+    color: white;
+    text-align: center;
+}
+
+ nav ul { 
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:bold ;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.Productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid  #fd99a8;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #fd99a8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+section button{
+    padding: 10px;
+    background-color: #fd99a8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section button:hover{
+    background-color: #fd99a8;
+}
